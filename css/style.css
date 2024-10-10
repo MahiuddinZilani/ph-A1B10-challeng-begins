@@ -208,13 +208,14 @@ main {
   gap: 24px;
 }
 .next-target-card {
-  padding: 40px;
+  padding: 48px;
   width: 100%;
+  height: auto;
   text-align: start;
 
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 60px;
 
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
