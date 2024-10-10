@@ -55,7 +55,7 @@
   font-size: 16px;
   font-weight: 400;
 }
-
+/* ----------------------------------------------------- */
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -81,11 +81,11 @@
   align-items: center;
   gap: 24px;
 }
-
+/* ---------------------------------------------------------- */
 main {
   margin: 0px 104px;
 }
-
+/* ----------------------------------------------------------- */
 #why-dev {
   margin: 52px auto;
 }
@@ -118,7 +118,6 @@ main {
     rgba(255, 255, 255, 0) 100%
   );
 }
-
 .why-dev-card-reverse {
   flex-direction: row-reverse;
   background: linear-gradient(
@@ -172,3 +171,36 @@ main {
   border-radius: 16px;
 }
 /*------------------------------------------------------------  */
+.next-target {
+  margin: 52px auto;
+}
+.next-target-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.next-target-cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+.next-target-card {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.next-target-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
