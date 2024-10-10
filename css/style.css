@@ -147,3 +147,28 @@ main {
   gap: 28px;
 }
 /* -------------------------------------------------- */
+.current-target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.current-target-cards-container {
+  margin: 52px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.current-target-card {
+  width: 100%;
+  height: 200px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+
+  border-radius: 16px;
+}
+/*------------------------------------------------------------  */
