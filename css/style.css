@@ -204,3 +204,39 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
 }
+/* ------------------------------------------------- */
+
+#support {
+  margin: 52px auto;
+  height: 300px;
+  padding: 60px 40px;
+
+  border-radius: 20px; /* Removed the 16px */
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+/* ---------------------------------------------------- */
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+form > input {
+  padding: 8px;
+  width: 40%;
+  border-radius: 12px;
+}
