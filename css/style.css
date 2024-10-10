@@ -240,3 +240,21 @@ form > input {
   width: 40%;
   border-radius: 12px;
 }
+/* ---------------------------------------------- */
+
+footer {
+  padding: 36px 104px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
